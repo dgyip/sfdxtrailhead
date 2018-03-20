@@ -1,0 +1,224 @@
+warning: LF will be replaced by CRLF in .forceignore.
+The file will have its original line endings in your working directory.
+[1mdiff --git a/.forceignore b/.forceignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..97b5230[m
+[1m--- /dev/null[m
+[1m+++ b/.forceignore[m
+[36m@@ -0,0 +1,5 @@[m
+[32m+[m[32m# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status[m
+[32m+[m[32m# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm[m
+[32m+[m[32m#[m
+[32m+[m
+[32m+[m[32mpackage.xml[m
+\ No newline at end of file[m
+[1mdiff --git a/.sfdx/orgs/test-rdfmw0baxsco@example.com/maxrevision.json b/.sfdx/orgs/test-rdfmw0baxsco@example.com/maxrevision.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c793025[m
+[1m--- /dev/null[m
+[1m+++ b/.sfdx/orgs/test-rdfmw0baxsco@example.com/maxrevision.json[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m7[m
+\ No newline at end of file[m
+[1mdiff --git a/.sfdx/orgs/test-rdfmw0baxsco@example.com/metadataTypeInfos.json b/.sfdx/orgs/test-rdfmw0baxsco@example.com/metadataTypeInfos.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b138fce[m
+[1m--- /dev/null[m
+[1m+++ b/.sfdx/orgs/test-rdfmw0baxsco@example.com/metadataTypeInfos.json[m
+[36m@@ -0,0 +1,5218 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m    "sourceApiVersion": "42.0",[m
+[32m+[m[32m    "typeDefs": {[m
+[32m+[m[32m        "InstalledPackage": {[m
+[32m+[m[32m            "metadataName": "InstalledPackage",[m
+[32m+[m[32m            "isAddressable": true,[m
+[32m+[m[32m            "isSourceTracked": true,[m
+[32m+[m[32m            "ext": "installedPackage",[m
+[32m+[m[32m            "hasContent": false,[m
+[32m+[m[32m            "defaultDirectory": "installedPackages",[m
+[32m+[m[32m            "nameForMsgs": "Installed Package",[m
+[32m+[m[32m            "nameForMsgsPlural": "Installed Packages",[m
+[32m+[m[32m            "contentIsBinary": false,[m
+[32m+[m[32m            "hasStandardMembers": false,[m
+[32m+[m[32m            "deleteSupported": true,[m
+[32m+[m[32m            "decompositionConfig": {[m
+[32m+[m[32m                "strategy": "nonDecomposed",[m
+[32m+[m[32m                "workspaceStrategy": "nonDecomposed",[m
+[32m+[m[32m                "commitStrategy": "fineGrainTracking",[m
+[32m+[m[32m                "metadataName": "InstalledPackage",[m
+[32m+[m[32m                "useSparseComposition": false,[m
+[32m+[m[32m                "decompositions": [],[m
+[32m+[m[32m                "contentStrategy": "nonDecomposedContent"[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "hasVirtualSubtypes": false[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "CustomLabels": {[m
+[32m+[m[32m            "metadataName": "CustomLabels",[m
+[32m+[m[32m            "isAddressable": true,[m
+[32m+[m[32m            "isSourceTracked": true,[m
+[32m+[m[32m            "ext": "labels",[m
+[32m+[m[32m            "hasContent": false,[m
+[32m+[m[32m            "defaultDirectory": "labels",[m
+[32m+[m[32m            "nameForMsgs": "Custom Label",[m
+[32m+[m[32m            "nameForMsgsPlural": "Custom Labels",[m
+[32m+[m[32m            "contentIsBinary": false,[m
+[32m+[m[32m            "childXmlNames": [[m
+[32m+[m[32m                "CustomLabel"[m
+[32m+[m[32m            ],[m
+[32m+[m[32m            "hasStandardMembers": false,[m
+[32m+[m[32m            "deleteSupported": true,[m
+[32m+[m[32m            "decompositionConfig": {[m
+[32m+[m[32m                "strategy": "nonDecomposed",[m
+[32m+[m[32m                "workspaceStrategy": "nonDecomposed",[m
+[32m+[m[32m                "commitStrategy": "fineGrainTracking",[m
+[32m+[m[32m                "metadataName": "CustomLabels",[m
+[32m+[m[32m                "useSparseComposition": false,[m
+[32m+[m[32m                "decompositions": [],[m
+[32m+[m[32m                "contentStrategy": "nonDecomposedContent"[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "hasVirtualSubtypes": false[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "StaticResource": {[m
+[32m+[m[32m            "metadataName": "StaticResource",[m
+[32m+[m[32m            "isAddressable": true,[m
+[32m+[m[32m            "isSourceTracked": true,[m
+[32m+[m[32m            "ext": "resource",[m
+[32m+[m[32m            "hasContent": true,[m
+[32m+[m[32m            "defaultDirectory": "staticresources",[m
+[32m+[m[32m            "nameForMsgs": "Static Resource",[m
+[32m+[m[32m            "nameForMsgsPlural": "Static Resources",[m
+[32m+[m[32m            "contentIsBinary": true,[m
+[32m+[m[32m            "hasStandardMembers": false,[m
+[32m+[m[32m            "deleteSupported": true,[m
+[32m+[m[32m            "decompositionConfig": {[m
+[32m+[m[32m                "strategy": "describeMetadata",[m
+[32m+[m[32m                "workspaceStrategy": "nonDecomposed",[m
+[32m+[m[32m                "commitStrategy": "fineGrainTracking",[m
+[32m+[m[32m                "metadataName": "StaticResource",[m
+[32m+[m[32m                "useSparseComposition": false,[m
+[32m+[m[32m                "decompositions": [],[m
+[32m+[m[32m                "contentStrategy": "staticResource"[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "hasVirtualSubtypes": false[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "Scontrol": {[m
+[32m+[m[32m            "metadataName": "Scontrol",[m
+[32m+[m[32m            "isAddressable": true,[m
+[32m+[m[32m            "isSourceTracked": true,[m
+[32m+[m[32m            "ext": "scf",[m
+[32m+[m[32m            "hasContent": true,[m
+[32m+[m[32m            "defaultDirectory": "scontrols",[m
+[32m+[m[32m            "nameForMsgs": "Scontrol",[m
+[32m+[m[32m            "nameForMsgsPlural": "Scontrols",[m
+[32m+[m[32m            "contentIsBinary": false,[m
+[32m+[m[32m            "hasStandardMembers": false,[m
+[32m+[m[32m            "deleteSupported": true,[m
+[32m+[m[32m            "decompositionConfig": {[m
+[32m+[m[32m                "strategy": "nonDecomposed",[m
+[32m+[m[32m                "workspaceStrategy": "nonDecomposed",[m
+[32m+[m[32m                "commitStrategy": "fineGrainTracking",[m
+[32m+[m[32m                "metadataName": "Scontrol",[m
+[32m+[m[32m                "useSparseComposition": false,[m
+[32m+[m[32m                "decompositions": [],[m
+[32m+[m[32m                "contentStrategy": "nonDecomposedContent"[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "hasVirtualSubtypes": false[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "Certificate": {[m
+[32m+[m[32m            "metadataName": "Certificate",[m
+[32m+[m[32m            "isAddressable": true,[m
+[32m+[m[32m            "isSourceTracked": true,[m
+[32m+[m[32m            "ext": "crt",[m
+[32m+[m[32m            "hasContent": true,[m
+[32m+[m[32m            "defaultDirectory": "certs",[m
+[32m+[m[32m            "nameForMsgs": "Certificate",[m
+[32m+[m[32m            "nameForMsgsPlural": "Certificates",[m
+[32m+[m[32m            "contentIsBinary": false,[m
+[32m+[m[32m            "hasStandardMembers": false,[m
+[32m+[m[32m            "deleteSupported": true,[m
+[32m+[m[32m            "decompositionConfig": {[m
+[32m+[m[32m                "strategy": "nonDecomposed",[m
+[32m+[m[32m                "workspaceStrategy": "nonDecomposed",[m
+[32m+[m[32m                "commitStrategy": "fineGrainTracking",[m
+[32m+[m[32m                "metadataName": "Certificate",[m
+[32m+[m[32m                "useSparseComposition": false,[m
+[32m+[m[32m                "decompositions": [],[m
+[32m+[m[32m                "contentStrategy": "nonDecomposedContent"[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "hasVirtualSubtypes": false[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "AuraDefinitionBundle": {[m
+[32m+[m[32m            "metadataName": "AuraDefinitionBundle",[m
+[32m+[m[32m            "isAddressable": true,[m
+[32m+[m[32m            "isSourceTracked": true,[m
+[32m+[m[32m            "ext": "aurabundle",[m
+[32m+[m[32m            "hasContent": true,[m
+[32m+[m[32m            "defaultDirectory": "aura",[m
+[32m+[m[32m            "nameForMsgs": "Lightning Component Bundle",[m
+[32m+[m[32m            "nameForMsgsPlural": "Lightning Component Bundles",[m
+[32m+[m[32m            "contentIsBinary": false,[m
+[32m+[m[32m            "hasStandardMembers": false,[m
+[32m+[m[32m            "deleteSupported": true,[m
+[32m+[m[32m            "decompositionConfig": {[m
+[32m+[m[32m                "strategy": "nonDecomposed",[m
+[32m+[m[32m                "workspaceStrategy": "nonDecomposed",[m
+[32m+[m[32m                "commitStrategy": "fineGrainTracking",[m
+[32m+[m[32m                "metadataName": "AuraDefinitionBundle",[m
+[32m+[m[32m                "useSparseComposition": false,[m
+[32m+[m[32m                "decompositions": [],[m
+[32m+[m[32m                "contentStrategy": "nonDecomposedContent"[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "hasVirtualSubtypes": false[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "LightningComponentBundle": {[m
+[32m+[m[32m            "metadataName": "LightningComponentBundle",[m
+[32m+[m[32m            "isAddressable": true,[m
+[32m+[m[32m            "isSourceTracked": true,[m
+[32m+[m[32m            "ext": "lightningcomponentbundle",[m
+[32m+[m[32m            "hasContent": true,[m
+[32m+[m[32m            "defaultDirectory": "lightningcomponents",[m
+[32m+[m[32m            "nameForMsgs": "Lightning Component Bundle",[m
+[32m+[m[32m            "nameForMsgsPlural": "Lightning Component Bundles",[m
+[32m+[m[32m            "contentIsBinary": false,[m
+[32m+[m[32m            "hasStandardMembers": false,[m
+[32m+[m[32m            "deleteSupported": true,[m
+[32m+[m[32m            "decompositionConfig": {[m
+[32m+[m[32m                "strategy": "nonDecomposed",[m
+[32m+[m[32m                "workspaceStrategy": "nonDecomposed",[m
+[32m+[m[32m                "commitStrategy": "fineGrainTracking",[m
+[32m+[m[32m                "metadataName": "LightningComponentBundle",[m
+[32m+[m[32m                "useSparseComposition": false,[m
+[32m+[m[32m                "decompositions": [],[m
+[32m+[m[32m                "contentStrategy": "nonDecomposedContent"[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "hasVirtualSubtypes": false[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "ApexComponent": {[m
+[32m+[m[32m            "metadataName": "ApexComponent",[m
+[32m+[m[32m            "isAddressable": true,[m
+[32m+[m[32m            "isSourceTracked": true,[m
+[32m+[m[32m            "ext": "component",[m
+[32m+[m[32m            "hasContent": true,[m
+[32m+[m[32m            "defaultDirectory": "components",[m
+[32m+[m[32m            "nameForMsgs": "Visualforce Component",[m
+[32m+[m[32m            "nameForMsgsPlural": "Visualforce Components",[m
+[32m+[m[32m            "contentIsBinary": false,[m
+[32m+[m[32m            "hasStandardMembers": false,[m
+[32m+[m[32m            "deleteSupported": true,[m
+[32m+[m[32m            "decompositionConfig": {[m
+[32m+[m[32m                "strategy": "nonDecomposed",[m
+[32m+[m[32m                "workspaceStrategy": "nonDecomposed",[m
+[32m+[m[32m                "commitStrategy": "fineGrainTracking",[m
+[32m+[m[32m                "metadataName": "ApexComponent",[m
+[32m+[m[32m                "useSparseComposition": false,[m
+[32m+[m[32m                "decompositions": [],[m
+[32m+[m[32m                "contentStrategy": "nonDecomposedContent"[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "hasVirtualSubtypes": false[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "ApexPage": {[m
+[32m+[m[32m            "metadataName": "ApexPage",[m
+[32m+[m[32m            "isAddressable": true,[m
+[32m+[m[32m            "isSourceTracked": true,[m
+[32m+[m[32m            "ext": "page",[m
+[32m+[m[32m    
